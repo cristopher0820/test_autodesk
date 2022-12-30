@@ -1,0 +1,23 @@
+{
+	"tiles": [{
+		    "cardName": "3DSMAX_card",
+			"nameValue": "3ds Max",
+			"badge": "3DSMAX_2023_BADGE_36X36.png"
+		},
+		{
+			"cardName": "ACDLTM_card",
+			"nameValue": "AutoCAD LT for Mac",
+			"badge": "ACDLTM_2023_BADGE_36X36.png"
+		},
+		{
+			"cardName": "PLC0000006_card",
+			"nameValue": "Vault Basic - Client",
+			"badge": "PLC0000006_2023_BADGE_36X36.png"
+		},
+		{
+			"cardName": "ARCHDESK_card",
+			"nameValue": "AutoCAD Architecture",
+			"badge": "ARCHDESK_2023_BADGE_36X36.png"
+		}
+	]
+}

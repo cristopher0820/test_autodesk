@@ -1,0 +1,54 @@
+{
+	"details": [
+		{
+			"itemLicenseType": "NETWORK",
+			"itemCheckBoxId": "MAP",
+			"itemCheckBoxId2": "Navisworks Manage",
+			"packageContent": "AutoCAD Map 3D",
+			"itemTab": "Customizations",
+			"extensionsTab": "Extensions",
+			"packageName": "Pylyp_035",
+			"productExtention1": "Revit Importer for 3ds Max 2023",
+			"productUpdateFile1": "adskflexnetserverIPV6.pkg",
+			"productExtentionFile1": "RevitImporter2023.msi"
+		}
+	],
+	"autodeskID_products": [
+		{
+			"itemLicenseType": "AUTODESK_ID",
+			"product": "AutoCAD LT"
+		}
+	],
+	"serialNumber_products": [
+		{
+			"itemLicenseType": "SERIAL_NUMBER",
+			"product": "FormIt Pro"
+		}
+	],
+	"network_products": [
+		{
+			"itemLicenseType": "NETWORK",
+			"product_1": "3ds Max",
+			"product_2": "AutoCAD",
+			"product_3": "AutoCAD Architecture",
+			"product_4": "AutoCAD Map 3D",
+			"product_5": "AutoCAD Mechanical"
+		}
+	],
+	"languages": [
+		{
+			"language_1": "English",
+			"language_2": "French",
+			"language_3": "German",
+			"language_4": "Italian",
+			"language_5": "Japanese"
+		}
+	],
+	"distributedLicense": [
+		{
+			"distributedLicense_1": "Distributed License 1",
+			"distributedLicense_2": "Distributed License 2",
+			"distributedLicense_3": "Distributed License 3"
+		}
+	]
+}

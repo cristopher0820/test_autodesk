@@ -1,0 +1,12 @@
+{
+	"tiles": [{
+            "cardName": "3DSMAX_card",
+            "nameValue": "3ds Max",
+            "fileName": "Autodesk_3ds_Max_2023_EFGJKPS_Win_64bit_ML_setup_webinstall.exe",
+            "cardName2": "PLC0000006_card",
+            "nameValue2": "Vault Basic - Client",
+            "fileName2": "Create_Installer_PLC0000006_2022_English_WIN64.exe",
+            "plc": "3DSMAX"
+		}
+	]
+}

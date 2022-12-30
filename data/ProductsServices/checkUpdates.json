@@ -1,0 +1,18 @@
+{
+	"tiles": [{
+		    "cardName": "RVT_card",
+			"nameValue": "Revit",
+            "year": 2021,
+            "updates": 9,
+            "languages": 0,
+            "extensions": 0
+		},{
+		    "cardName": "PLC0000006_card",
+			"nameValue": "Vault Basic - Client",
+            "year": 2022,
+            "updates": 5,
+            "languages": 14,
+            "extensions": 0
+		}
+	]
+}

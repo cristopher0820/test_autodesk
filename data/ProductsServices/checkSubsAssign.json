@@ -1,0 +1,10 @@
+{
+	"tiles": [{
+		    "cardName": "3DSMAX_card",
+			"nameValue": "3ds Max",
+			"yearCount": 3,
+			"platformCount": 1,
+			"languageCount": 7
+		}
+	]
+}

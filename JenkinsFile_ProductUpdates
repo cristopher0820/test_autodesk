@@ -1,0 +1,43 @@
+pipeline {
+    agent {
+        label 'Deployment-Nova-test2'
+    }
+    stages{
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+        stage('Installing all Dependencies') {
+            steps {
+                echo '**********************'
+                echo '** Building Project **'
+                echo '**********************'
+                echo 'npx npm-check-updates -u'
+                echo 'yarn install'
+                echo 'npm install --legacy-peer-deps'
+            }
+        }
+        stage('Clean Allure report') {
+            steps {
+                echo '**************************'
+                echo '** Delete Report folder **'
+                echo '**************************'
+                bat 'rmdir /q/s allure-results'
+            }
+        }
+        stage('P&S Redesing Scenarios') {
+            steps {
+                echo '*************************'
+                echo '**    Testing Apps     **'
+                echo '*************************'
+                bat 'npx wdio run ./wdio.conf.js --suite productUpdates'
+            }
+        }
+    }
+    post { 
+        always { 
+            allure results: [[path: 'allure-results']]
+        }
+    }
+}

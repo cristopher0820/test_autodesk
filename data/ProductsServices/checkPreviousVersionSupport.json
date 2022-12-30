@@ -1,0 +1,39 @@
+{
+	"tiles": [{
+		    "cardName": "3DSMAX_card",
+			"nameValue": "3ds Max",
+			"yearCount": 3,
+			"years": [
+				{
+					"options": ["2023", "Download", "Custom Install"]
+				},
+				{
+					"options": ["2022", "Download", "Custom Install"]
+				},
+				{
+					"options": ["2021", "Download", "Custom Install"]
+				}
+			],
+			"platformCount": 1,
+			"languageCount": 7
+		},
+		{
+		    "cardName": "ACD_card",
+			"nameValue": "AutoCAD",
+			"yearCount": 3,
+			"years": [
+				{
+					"options": ["2024", "Download", "Custom Install"]
+				},
+				{
+					"options": ["2022", "Custom Install"]
+				},
+				{
+					"options": ["2021", "Download"]
+				}
+			],
+			"platformCount": 1,
+			"languageCount": 1
+		}
+	]
+}

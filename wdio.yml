@@ -1,0 +1,9 @@
+---
+execution:
+- executor: wdio
+  iterations: 10
+  scenario:
+    script: wdio.conf.js  # wdio configuration script
+modules:
+  wdio:
+    tools-dir: node_modules/@wdio

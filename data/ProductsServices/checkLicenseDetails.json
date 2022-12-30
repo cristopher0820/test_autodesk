@@ -1,0 +1,16 @@
+{
+	"tiles": [{
+            "cardName": "3DSMAX_card",
+            "nameValue": "3ds Max"
+		},{
+		    "cardName": "ACD_card",
+			"nameValue": "AutoCAD"
+		},{
+            "cardName": "ARCHDESK_card",
+			"nameValue": "AutoCAD Architecture"
+        },{
+            "cardName": "C3DPE_card",
+			"nameValue": "Civil 3D - Project Explorer"
+        }
+	]
+}
